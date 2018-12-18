@@ -42,6 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="S3_TreeGraph2.cs" />
+    <Compile Include="S3_TreeGraph1.cs" />
+    <Compile Include="S2_LinkedList3.cs" />
+    <Compile Include="S2_LinkedList2.cs" />
+    <Compile Include="S2_LinkedList1.cs" />
+    <Compile Include="S1_Array6.cs" />
+    <Compile Include="S1_Array5.cs" />
+    <Compile Include="S1_Array4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

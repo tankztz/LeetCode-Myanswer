@@ -10,12 +10,33 @@ namespace AlgoTester
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            //var input = new string[]{ "eat", "tea", "tan", "ate", "nat", "bat"};
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            S2_LinedList3.ListNode voidTail = new S2_LinedList3.ListNode(0);
+            S2_LinedList3.ListNode cur = voidTail;
+            int[] input = new int[] { 2, 1, 3, 5, 6, 4, 7 };
+            foreach (var k in input)
+            {
+                cur.next = new S2_LinedList3.ListNode(k);
+                cur = cur.next;
+            }
+            cur = voidTail.next;
+            while (cur != null)
+            {
+                Console.Write(cur.val + " ");
+                cur = cur.next;
+            }
+            Console.WriteLine();
+
+            //var ans = Array6.IncreasingTriplet(new int[] { 1, 2, 3, 4, 5 });
+            var ans = S2_LinedList3.GetIntersectionNode(voidTail.next, voidTail.next);
+
+            while (ans != null)
+            {
+                Console.WriteLine(ans.val);
+                ans = ans.next;
+            }
+            Console.ReadKey();
         }
     }
 }
