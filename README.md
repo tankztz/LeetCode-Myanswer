@@ -1,2 +1,2 @@
 # LeetCode-Myanswer
-Answers for leetcode top interview questions: https://leetcode.com/explore/interview/card/top-interview-questions-medium/
+Answers for leetcode section "top interview questions": https://leetcode.com/explore/interview/card/top-interview-questions-medium/
